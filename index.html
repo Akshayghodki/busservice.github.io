@@ -1,0 +1,277 @@
+<!doctype>
+<html>
+<title>AKSHAY BUS SERVICE</title>
+<head>
+  <style>
+    .navbar{
+            background-color: rgb(237, 21, 57);
+            border-radius: 30px;
+            position: fixed;
+            top: 3px;
+    
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 6px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            background-color: white;
+            color: black;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 100px;
+        }
+  </style>
+</head>
+<body bgcolor=yellow text=black>
+
+
+<b><h1><font color="dark pink"> AKSHAY BUS SERVICE</h1></font></b><hr/><hr/>
+<center><b><h3><font color="blue"> BOOKING</h3></font></b></center>
+<header>
+  <nav class="navbar">
+      <ul>
+          <li><a href="C:\Users\aksha\Downloads\iPortfolio\iPortfolio\bus website.html">Home</a></li>
+          <li><a href="C:\Users\aksha\Downloads\iPortfolio\iPortfolio\cardhover.html">About</a></li>
+          <li><a href="C:\Users\aksha\Downloads\iPortfolio\iPortfolio\akshay bus service.html">Services</a></li>
+          <li><a href="C:\Users\aksha\Downloads\iPortfolio\iPortfolio\contactus.html">Contact us</a></li>
+          <div class="search">
+              <input type="text" name="search" id="search" placeholder="Search this website">
+          </div>
+      </ul>
+  </nav>
+</header>
+<lable for="fname">first name:
+</lable><br>
+<input type="text" id="fname name="fname"><br>
+<lable for="lname">last name:
+</lable><br>
+<input type="text" id="lname name="lname"><br>
+</lable><br>
+
+
+<br><lable>TO:</lable><select>
+<option value="BETUL">BETUL</OPTION>
+<option value="MULTAI">MULTAI</OPTION>
+<option value="ITARSHI">ITARSHI</OPTION>
+<option value="PATTAN">PATTAN</OPTION>
+<option value="BIRUL">BIRUL</OPTION>
+<option value="MANGONAKHURDA">MANGONAKHURDA</OPTION></select>
+<br><br>
+
+<lable>FROM:</lable><select>
+<option value="BETUL">BETUL</OPTION>
+<option value="MULTAI">MULTAI</OPTION>
+<option value="ITARSHI">ITARSHI</OPTION>
+<option value="PATTAN">PATTAN</OPTION>
+<option value="BIRUL">BIRUL</OPTION>
+<option value="MANGONAKHURDA">MANGONAKHURDA</OPTION></select>
+<br><br>
+
+<label for="TICKET COST">Choose A JOURNY:</label>
+
+<select name="TICKET COST" id="TICKET COST">
+<option value="BETUL TO MULTAI = 300  ...5.00 AM">BETUL TO MULTAI=300  ...5.00 AM</option>
+<option value="BETUL TO PATTAN=350  ...6.00 AM">BETUL TO PATTAN=350  ...6.00 AM</option>
+<option value="BETUL TO ITARSHI=250   ...7.00 AM">BETUL TO ITARSHI=250  ......7.00 AM</option>
+<option value="BETUL TO BIRUL=200   ...8.00 AM">BRTUL TO BIRUL=200  ...8.00 AM</option>
+<option value="BETUL TO MANGONA KHURDA=100 ...9.00">BETUL TO MANGONA KHURDA=100  ...9.00 AM</option>
+<option value="MULTAI TO BETUL=300  ... 10.00">MULTAI TO BETUL=300   ...10.00 AM</option>
+<option value="MULTAI TO PATTAN=50   ...11.00 AM">MULTAI TO PATTAN=50  ...11.00 AM</option>
+<option value="MULTAI TO ITARSHI=200  ...12.00 PM">MULTAI TO ITARSHI=200   ...12.00PM</option>
+<option value="MULTAI TO BIRUL=50   ...1.00 PM">MULTAI TO BIRUL=50  ...1.00PM</option>
+<option value="MULTAI TO MANGONA KHURDA=60  ...2.00 PM">MULTAI TO MANGONA KHURDA=60   ...2.00PM</option>
+<option value="PATTAN TO BETUL=350  ...3.00 PM">PATTAN TO BETUL=350  ...3.00 PM</option>
+<option value="PATTAN TO MULTAI=50  ...4.00 PM">PATTAN TO MULTAI=50  ...4.00 PM</option>
+<option value="PATTAN TO ITARSHI=400  ...5.00 PM">PATTAN TO ITARSHI=400  ...5.00PM</option>
+<option value="PATTAN TO BIRUL=100  ...6.00 PM">PATTAN TO BIRUL=100  ...6.00 PM</option>
+<option value="PATTAN TO MANGONA KHURDA=50  ...7.00 PM">PATTAN TO MANGONA KHURDA=50  ...7.00 PM</option>
+<option value="ITARSHI TO BETUL=250  ...8.00 PM">ITARSHI TO BETUL=250  ...8.00 PM</option>
+<option value="ITARSHI TO MULTAI=200  ...9.00 PM">ITARSHI TO MULTAI=200  ...9.00 PM</option>
+<option value="ITASHI TO PATTAN=400  ...10.00 PM">ITARSHI TO PATTAN=400  ...10.00 PM</option>
+<option value="ITARSHI TO BIRUL=300  ...11.00 PM">ITARSHI TO BIRUL=300  ...11.00 PM</option>
+<option value="ITARSHI TO MANGONA KHURDA=250 ...12.00 AM">ITARSHI TO MANGONA KHURDA=250  ...12.00 AM</option>
+<option value="BIRUL TO BETUL=200  ...12.10 AM">BIRUL TO BETUL=200  ...12.10 AM</option>
+<option value="BIRUL TO MULTAI=50  ...12.30 AM">BIRUL TO MULTAI=50  ...12.30 AM</option>
+<option value="BIRUL TO ITARSHI=300  ...1.00 AM">BIRUL TO ITARSHI=300  ...1.00 AM</option>
+<option value="BIRUL TO PATTAN=100  ...1.30 AM">BIRUL TO PATTAN=100   ...1.30 AM</option>
+<option value="BIRUL TO MANGONA KHURDA=100  ...2.00 AM">BIRUL TO MANGONA KHURDA=100  ...2.00 AM</option>
+<option value="MANGONA KHURDA TO BETUL=100  ...2.30 AM">MANGONA KHURDA TO BETUL=100  ...2.30 AM</option>
+<option value="MANGONA KHURDA TO MULTAI=60  ...3.00AM">MANGONA KHURDA TO MULTAI=60  ...3.00 AM</option>
+<option value="MANGONA KHURDA TO ITARSHI=250  3.30 AM">MANGONA KHURDA TO ITARSHI=250 ...3.30 AM</option>
+<option value="MANGONA KHURDA TO PATTAN=50  ...4.00 AM">MANGONA KHURDA TO PATTAN=50  ...4.00AM</option>
+<option value="MANGONA KHURDA TO BIRUL=100  ...4.30 AM">MANGONA KHURDA TO BIRUL=100  ...4.30 AM</option>
+
+ 
+<label for="TICKET COST">Choose a JOURNY:</label><br><br>
+<select><br>
+<label for="GENDAR">Choose A GANDER:</label>
+
+<select name="GENDER" id="GENDER">
+<option value="MALE">MALE</option>
+<option value="FEMALE">FEMALE</option>
+<option value="OTHER">OTHER</option>
+<label for="GENDAR">Choose A GENDAR:</label></br>
+  
+</select><br>
+<label for="adult">adult:</label>
+
+<select name="adult" id="adult">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option></br>
+
+
+
+</select><br>
+
+<label for="child">child:</label>
+
+<select name="child" id="child">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option></br>
+
+
+</select>
+
+
+
+
+<lable></br>AGE:
+</label>
+<input type="text" id="birth_date"/></div><br>
+phone:
+<lable>
+<input type="text"name="countrycode" value="+91" size="2"/>
+<input type="text"name="phone' size="10"/<br><br>
+EMAIL:
+<input type="email" id="email"name="email"/><br><br>
+
+<form>
+<div>
+<label for="payment">submit ticket cost</labe>
+<input id="payment type="int" name="int">
+</div>
+</form>
+<lable>BUS NUMBER:</lable><select>
+<option value="bus no. 1">bus no. 1</option>
+<option value="bus no. 2">bus no. 2</option>
+<option value="bus no. 3">bus no. 3</option>
+<option value="bus no. 4">bus no. 4</option>
+<option value="bus no. 5">bus no. 5</option>
+<option value="bus no. 6">bus no. 6</option></select>
+<br>
+
+
+<br><lable>PASSANGER SEAT</lable><select>
+
+</lable><selectoption value="seat available"seat available</option>
+
+<option value="1">1</option><br>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>                                                                                                               
+
+
+
+
+</form>
+              <tr>
+                  <td>
+                    <h2 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://rzp.io/l/8cULKKXLbB" >PAYMENT</a> T0 PAY YOUR FARE</h2> 
+                    <script>
+                        function mouseOver() {
+                          document.getElementById("demo").style.color = "red";
+                        }
+                        
+                        function mouseOut() {
+                          document.getElementById("demo").style.color = "black";
+                        }
+                        </script>
+            
+                    </td>
+                </tr>
+
+              <tr>
+                  <td>
+                      <a href="https://akshayghodki.github.io/submit.github-io/">
+
+                      <input type="submit" vaue="submit"name="submit">
+                       </a>
+                    </td>
+                </tr>             
+</body></html> 
+
